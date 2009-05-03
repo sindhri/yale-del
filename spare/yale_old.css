@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    width: 1024px;
+    margin: 0 auto;
+}
+p{
+	font:"Times New Roman", Times, serif;
+	font-size:13px;
+	color:#000000;
+	line-height:17px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navigation{
+	font-family:Century Gothic;
+	font-size: 16px;
+	font-style:inherit;
+	color: #FFFFFF;
+	word-spacing: 5px;
+	font-family:Century Gothic;
+}
+.navigation2{
+	font-family:Century Gothic;
+	font-size: 14px;
+	font-style:inherit;
+	color: #FFFFFF;
+	font-family:Century Gothic;
+	padding: 17px;
+}
