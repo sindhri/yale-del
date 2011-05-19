@@ -30,6 +30,7 @@ table#contact td {
   padding:1em;
   text-align: left;
   border:0em;
+  border:0.1em solid;
 }
 table#grant {
   width:40em;

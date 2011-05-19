@@ -1,39 +1,42 @@
-#dropdownmenu
-{	margin: 0;
-	padding: 0}
-	
-	#dropdownmenu li
-	{	float: left;
-		list-style: none;
-		font: 12px Tahoma, Arial}
-
-	#dropdownmenu li a
-	{	display: block;
-		background: #20548E;
-		padding: 5px 12px;
-		text-decoration: none;
-		border-right: 1px solid white;
-		width: 70px;
-		color: #EAFFED;
-		white-space: nowrap}
-
-	#dropdownmenu li a:hover
-	{	background: #1A4473}
-		
-		#dropdownmenu li ul
-		{	margin: 0;
-			padding: 0;
-			position: absolute;
-			visibility: hidden;
-			border-top: 1px solid white}
-		
-		#dropdownmenu li ul li
-		{	float: none;
-			display: inline}
-		
-		#dropdownmenu li ul li a
-		{	width: auto;
-			background: #9F1B1B}
-		
-		#dropdownmenu li ul li a:hover
-		{	background: #7F1616}
+#dropdownmenu {
+    margin: 0;
+    padding: 0;
+}
+#dropdownmenu li {
+    float: left;
+    font: 0.8em Tahoma,Arial;
+    list-style: none outside none;
+}
+#dropdownmenu li a {
+    background: none repeat scroll 0 0 #256DA8;
+    border-right: 1px solid white;
+    color: #EAFFED;
+    display: block;
+    padding: 0.6em 0.937em;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 9.167em;
+}
+#dropdownmenu li a:hover {
+    background: none repeat scroll 0 0 #1A4473;
+}
+#dropdownmenu li ul {
+    border-top: 0.1em solid #427AB8;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+}
+#dropdownmenu li ul li {
+    display: inline;
+    float: none;
+}
+#dropdownmenu li ul li a {
+    background: none repeat scroll 0 0 #256DA8;
+    width: auto;
+    font-size: 1.2em;
+    border-bottom: 1px solid #427AB8;
+}
+#dropdownmenu li ul li a:hover {
+    background: none repeat scroll 0 0 #1A4473;
+}
