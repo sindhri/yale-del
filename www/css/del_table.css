@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table#table_calendar td {
+}
+table#table_intern {
+  margin-left:0em;
+}
+table#table_intern td {
+}
+table#tasks {
+  margin-top:2em; 
+}
+table#people {
+  margin:0em auto; 
+}
+table#people a{
+  color:#000000;
+}
+table#people a:hover{
+  color:#0000FF;
+}
+/*contact page*/
+table#contact {
+  width:33em;
+  margin:1em auto;
+  border:0em;
+}
+table#contact td {
+  padding:1em;
+  text-align: left;
+  border:0em;
+}
+table#grant {
+  width:40em;
+  margin:1em auto 0em auto;
+  border:1px solid;
+  border-collapse:collapse;
+}
+table#grant td {
+  border:1px solid;
+  border-collapse:collapse;
+  padding:0.8em;
+}
+table#grant th {
+  border:1px solid;
+  border-collapse:collapse;
+  padding:1em;
+}
+
+div.table_header {
+  height:1.4em;
+  font-family: font-family: "Times New Roman", Times, serif;
+  font-size:1em;
+  font-style:bold;
+}
+div#intern_history h2 {
+  font-family: font-family: "Times New Roman", Times, serif;
+  font-size:1.2em;
+  font-weight:lighter;
+  margin-top:2em;
+  font-style:italic;
+}
+div#intern_history table {
+  border:1px solid;
+    border-collapse:collapse;
+}
+div#intern_history table td {
+  border:1px solid;
+  padding:2em;
+}
+div#intern_history table th {
+  border:1px solid;
+  padding:2em;
+}

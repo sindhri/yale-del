@@ -1,0 +1,87 @@
+span.strong {
+  font-style:bold;
+}
+div#ul_autism ul {
+  margin:0em;
+  padding:0em;
+  list-style-type:none;
+}
+div#ul_autism li {
+  margin-top:0em;
+  font-weight:bold;
+}
+div#ul_autism li p {
+  padding-top:0.8em;
+  padding-bottom:2em;
+  font-size:1em;
+  font-weight:normal;
+}
+div#ul_studies ul {
+  font-size:1.2em;
+  margin-top:0em;
+  padding-top:0em;
+}
+div#ul_studies li {
+  margin-bottom:1em;
+  padding-left:1em;
+}
+div#ul_studies a {
+  color:#000000;
+  text-decoration:underline;
+}
+div#ul_bullet ul {
+  margin:0em;
+  padding:0em;
+  list-style-type:circle;
+}
+div#ul_bullet li {
+  margin:1em;
+  padding-left:1em;
+}
+div#ul_bullet li a {
+  text-decoration:underline;
+  color:#222222;
+}
+div#div_direction ul {
+  list-style-type:circle;
+  margin-top:2em;
+}
+div#div_direction li {
+  padding-left:1em;
+}
+div#map {
+  margin-top:2em;
+}
+div#K23 h2 {
+  text-align:center;
+  margin-top:2em;
+
+}
+div.K23_subtitle h3 {
+  text-align:center;
+  margin-top:3em;
+  margin-bottom:1.5em;
+}
+ol#allow_paused_list {
+  margin:0em;
+  padding-top: 0em;
+  font-size:1em;
+}
+ol#allow_paused_list li {
+  margin:1em;
+}
+div#logout {
+  margin-top: 2em;
+  border:0.05em solid black;
+  background-color:#3399FF;
+  width:4em;
+  padding:0.5em;
+  text-align:center;
+}
+div#logout a {
+  color:#000000;
+}
+div#DEL_minute li{
+  margin:1em;
+  padding-left:1em;
+}

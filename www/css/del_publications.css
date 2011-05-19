@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#content_publications {
+  margin:0em 2em;
+}
+/*publications_header*/
+div#publications_header {
+  float:right; 
+  margin-top:3em;
+}
+div#publications_header h3{
+  font-family: Century Gothic, Times, serif; 
+  display: inline;
+  color: #666666;
+  font-size:1em;
+  font-weight:lighter;
+  padding-left:1em;
+}
+div#publications_header h3:hover {
+	color: #FF0000;
+}
+div#publications_header h3:active {
+	color: #000000;
+}
+div#publications_header h3#publications_2011_header {
+  color: #000000;
+  font-weight:bold;
+}
+
+/*publications*/
+div#publications_list{
+  font-variant: small-caps;
+}
+div#publications_list ul{
+  margin:0em;
+  padding:0em;
+  list-style-type:none;
+  font-size: 1em;
+  }
+div#publications_list li{
+  margin-bottom:1.8em;
+  padding:0em;
+}
+span.journal{
+  font-style:italic;
+}
+
+div#publications_list div.download_link {
+  text-align: right;
+  margin: 0.2em 0em 0em 0em;
+  padding: 0em;
+  font-size: 1em;
+}
+.download_link a{
+  text-decoration: underline;
+}
+
+div#publications_2011 {
+  margin-left:0em;
+  text-align: justify;
+}
+div#publications_2010 {
+  margin-left:0em;
+  display:none;
+  text-align: justify;
+}
+div#publications_2009 {
+  margin-left:0em;
+  display:none;
+  text-align: justify;
+}
+div#publications_early {
+  margin-left:0em;
+  display:none;
+  text-align: justify;
+}

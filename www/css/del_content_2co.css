@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*for spacing*/
+div#content {
+  margin:2em 4em 1.5em;
+  padding:0em 0em 3em 0em;
+}
+div#title {
+  padding: 1.5em 0em 2.0em 0em;
+}
+div#title_homepage {
+  padding: 1.5em 0em 2.0em 0em;
+}
+div#title_homepage h1{
+  font-size: 2em;
+}
+div#content_text{
+}
+div#content_text ol {
+  font-family:"Times New Roman", Times, serif;
+  list-style-type:lower-roman;
+}
+div#content_text ol li{
+  padding:0.4em;
+}
+div#content_text h3{
+  margin-top:2em;
+  padding-top:0em;
+}
+div#content_text h3.h3_first_line {
+  margin-top:0em;
+  padding-top:0em;
+}
+div.content_link{
+  margin-top:1em;
+}
+div.content_link a {
+	font-family:"Times New Roman", Times, serif;
+  color: #000000;
+  font-size:1em;
+  font-weight:lighter;
+  font-style:normal;
+  text-decoration:underline;
+}
+div#content_image {
+  float: right;
+  margin:0em 0em 0.5em 2em;
+}
+div#content_image ul {
+  list-style-type:none;
+  margin:0em;
+  padding:0em;
+}
+div#content_image li {
+  margin-top:0em;
+  margin-left:0em;
+  margin-bottom:1em;
+  padding:0em;
+}

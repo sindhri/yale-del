@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div#overall {
+  background-color:#FFFFFF;
+  min-height: 800px;
+  height: auto !important;
+  height: 800px;
+}
+div#header {
+  height: 99px;
+  background: url(/images/header.jpg);
+}
+/*the horizontal bar*/
+
+/*the vertical bar*/
+div#leftmenu_image{
+	padding: 2em 0em 0em 1em; 
+}

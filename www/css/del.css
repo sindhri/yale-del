@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("../fonts/caviar_dreams/CaviarDreams.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+    width: 854px;
+    margin: 0 auto;
+    /*background-color: #e5e5f3;*/
+    background-color: #E0E0E0
+}
+
+h1 {
+  font-family:CaviarDreams,Century Gothic;
+  font-size: 1.6em;
+  font-weight: lighter;
+  margin-bottom: 0.4em;
+}
+
+h2{
+}
+h3{
+}
+h3.intern{
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+h3.mcpartland{
+  text-align: center;
+  font-size: 18px;
+}
+
+h4{
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+	color:black;
+	margin-bottom: 0px;
+}
+
+p {
+	font-family:"Times New Roman", Times, serif;
+	line-height:1.2em;
+  padding:0em 0em;
+  margin:0em 0em 1em 0em; 
+  font-size: 1em;
+  text-align:justify;
+}
+a:link {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+}
+img {
+	 border-style: none;
+}
+ul {
+  font-family:"Times New Roman", Times, serif;
+}
+table{
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  border: 0.1em solid gray;
+  border-collapse:collapse;
+}
+td {
+  padding:0.5em;
+  border: 0.1em solid gray;
+  border-collapse:collapse;
+}
+th {
+  padding:0.5em;
+  border: 0.1em solid gray;
+  border-collapse:collapse;
+}
