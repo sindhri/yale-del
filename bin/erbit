@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "rake"
+require "erb"
+
+begin
+  $LOAD_PATH.unshift Dir.pwd
+  require "erbit_helpers"
+rescue LoadError
+  # do nothing
+end
+
+def ProcessTemplate(file)
+  ERB.new(File.read(file)).result(binding)
+end
+
+erb_files = File.join("templates/**", "*.erb")
+Dir.glob(erb_files).each do |f|
+  output_file = "www#{f.gsub('.erb', '.html').gsub(/\Atemplates/, '')}"
+  page = ProcessTemplate(f)
+  FileUtils.mkdir_p(File.dirname(output_file))
+  File.open(output_file, "w") do |file|
+    file << ProcessTemplate(ARGV[0] || "layout.erb") { page }
+  end
+end
+
+

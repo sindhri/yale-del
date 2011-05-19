@@ -1,6 +1,8 @@
-1.folder to run serveit .
-/Users/wujia123/devel/del/www
-changed static.ru on 2011-05-19 by jordan
+1.changed static.ru on 2011-05-19 by jordan
+folder to run serveit .
+/Users/wujia123/devel/del
+
+http://localhost:3000/labs/del/
 
 2. changed erbit on 2011-05-19 by jordan
 run the following command under /del
