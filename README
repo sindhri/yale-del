@@ -1,0 +1,16 @@
+1.folder to run serveit .
+/Users/wujia123/devel/del/www
+changed static.ru on 2011-05-19 by jordan
+
+2. changed erbit on 2011-05-19 by jordan
+run the following command under /del
+erbit layout.erb
+
+
+3.Embed a text file into an erbit template:
+<%= File.read("#{DATA_DIR}/Hello.txt") %>
+
+4.to run w3clove
+w3clove sitemap.xml report.html
+open report.html 
+

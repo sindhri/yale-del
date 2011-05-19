@@ -1,0 +1,19 @@
+<div id="content">
+<div id="title"><h1>Calendar</h1></div>
+
+<p>Wednesday 1:30-3pm @ Director's office in Child Study Center</p>
+    <table id="table_calendar">
+      <tr>
+        <td>Date</td>
+        <td>Plan</td>
+      </tr>
+      <%  csv_table('calendar.csv') do |row| %>
+      <tr>
+        <td><%= row['Date'] %></td>
+        <td><%= row['Plan'] %></td>
+     </tr>
+      <%  end %>
+    </table>
+    <div id="logout">
+      <a href="https://secure.its.yale.edu/cas/logout">Log Out</a></div>
+</div>

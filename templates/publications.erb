@@ -1,19 +1,77 @@
-<td width="405" align="left" valign="top" class="style2">
-<img src="images/publications_presentations.jpg" alt="" name="publications" width="300" height="29" id="publications" hspace="8" vspace="8" />
-<p> Crowley, M.J., Wu, J., Crutcher, C., Bailey, C.A., Lejuez, W.C., Mayes, L.C. (2009). Risk-Taking and the Feedback Negativity Response to Loss Among At-risk Adolescents. <i>Developmental Neuroscience.</i>&nbsp;&nbsp;31(1-2):137-48&nbsp;&nbsp;<a href = material/crowley_2009.pdf><u>PDF</u></a></p>
-<p> Mayes, L.C., Molfese, D.L., Key, A.P., Hunter, N.C. (2005). Event-related potentials in cocaine-exposed children during a Stroop task. <i>Neurotoxicology and teratology.</i>&nbsp;27(6):797-813&nbsp;&nbsp;<a href = material/mayes_2005.pdf><u>PDF</u></a></p>
+<div id="content">  <!--start of content div -->
+<div id="content_publications">
+<div id="publications_header"><!--start of publications_header div -->
+ 	<h3 id="publications_2011_header" onclick="showPublication('#publications_2011');">2011</h3>
+ 	<h3 id="publications_2010_header" onclick="showPublication('#publications_2010');">2010</h3>
+ 	<h3 id="publications_2009_header" onclick="showPublication('#publications_2009');">2009</h3>
+ 	<h3 id="publications_early_header" onclick="showPublication('#publications_early');">Earlier</h3>
+</div><!--end of publications_header div -->
+
+<div id="title"><h1>Publications &amp; Presentations</h1></div>
+
+<div id="publications_list"><!--start of publications div -->
+
+<div id="publications_2011"> <!--start div publication_2011 --> 	  
+ 	<ul>
+   <% csv_table('publications_2011.csv') do |row| %>
+    <li><%= row['Name'] %>&nbsp;(<%= row['Year'] %>)&nbsp;<%= row['Title'] %>
+        <span class="journal"><%= row['Journal'] %></span>
+        <%=row['Location']%>
+        <% if row['Link'] != "" %>	  
+ 	  <div class="download_link">
+ 	  <a href="<%=row['Link']%>">Download &nbsp; <%=row['Type']%></a>
+    </div><% end %>   
+    </li>
+   <% end %>
+ </ul>
+</div> <!--end div publication_2011 div -->
 
 
-<p> McPartland, J., Wu, J., Schultz, R. & Klin, A. (2009, May). Neural specialization for faces and letters in autism. Poster presented at the International Meeting for Autism Research, Chicago, IL. </p>
-<p> Shultz, S., Jones, W., Klin, A., & McPartland, J. (2009, May). Immediate Social Context in Face Processing: An ERP Study of Autism.  Poster presented at the International Meeting for Autism Research, Chicago, IL.</p>
-<p> Crowley, J. M., Wu, J., Bailey, A. C. (2009 March). Avoidant Attachment, Social Exclusion and Re-entry into Fair Play.  Paper Presented at the Society for Research in Child Development (SRCD), Denver, Colorado </p>
-<p>Landi, N., Worhunsky, P., Mencl, W.E., Erbe, J., Potenza, M.N., Irwin, J.R., Topf, J., & Mayes, L.C. (March, 2009). Functional Cortical Activation Associated with Processing of Infant Emotional State. Presented at the sixteenth annual meeting of the cognitive neuroscience society, San Francisco, CA</p>
-<p>Erbe, J., Landi, N., Irwin,J., Mencl, E., Topf,J.,  Potenza, M. & Mayes, L. (March, 2009). EEG Measures of Adult Response to Infant Emotion.  Presented at the sixteenth annual meeting of the cognitive neuroscience society, San Francisco, CA</p>
+ 	<div id="publications_2010"> <!--start of publication_2010 div -->
+ 	<ul>
+   <% csv_table('publications_2010.csv') do |row| %>
+    <li><%= row['Name'] %>&nbsp;(<%= row['Year'] %>)&nbsp;<%= row['Title'] %>
+        <span class="journal"><%= row['Journal'] %></span>
+        <%=row['Location']%>
+        <% if row['Link'] != "" %>	  
+ 	  <div class="download_link">
+ 	  <a href="<%=row['Link']%>">Download &nbsp; <%=row['Type']%></a>
+    </div><% end %>   
+    </li>
+   <% end %>
+</ul>
+</div> <!--end of publication_2010 div -->
 
 
-</td>
-<td width="323" align="center" valign="top" class="style2"><br />
-<br /><p><img src="images/headmodel.jpg" alt="headmodel" width="305" height="204" /></p>
-<br /><br />
-<p><img src="images/brainwave.jpg" alt="brainwave" width="305" height="187" /></p>
-</td>
+ 	<div id="publications_2009"> <!--start of publication_2009 div --> 	  
+ 	<ul>
+   <% csv_table('publications_2009.csv') do |row| %>
+    <li><%= row['Name'] %>&nbsp;(<%= row['Year'] %>)&nbsp;<%= row['Title'] %>
+        <span class="journal"><%= row['Journal'] %></span>
+        <%=row['Location']%>
+        <% if row['Link'] != "" %>	  
+ 	  <div class="download_link">
+ 	  <a href="<%=row['Link']%>">Download &nbsp; <%=row['Type']%></a>
+    </div><% end %>   
+    </li>
+   <% end %>
+</ul>
+</div> <!--end div publications_2009 -->
+
+ 	<div id="publications_early" > <!--start div publication_early--> 	  
+ <ul>
+   <% csv_table('publications_early.csv') do |row| %>
+    <li><%= row['Name'] %>&nbsp;(<%= row['Year'] %>)&nbsp;<%= row['Title'] %>
+        <span class="journal"><%= row['Journal'] %></span>
+        <%=row['Location']%>
+        <% if row['Link'] != "" %>	  
+ 	  <div class="download_link">
+ 	  <a href="<%=row['Link']%>">Download &nbsp; <%=row['Type']%></a>
+    </div><% end %>   
+    </li>
+   <% end %>
+</ul>
+</div><!--end of publications_early div -->
+</div><!--end of publications_list div -->
+</div><!--end of content_publications div-->
+</div><!--end of content div -->
