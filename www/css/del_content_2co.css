@@ -9,14 +9,6 @@ div#content {
 div#title {
   padding: 1.5em 0em 2.0em 0em;
 }
-div#title_homepage {
-  padding: 1.5em 0em 2.0em 0em;
-}
-div#title_homepage h1{
-  font-size: 2em;
-}
-div#content_text{
-}
 div#content_text ol {
   font-family:"Times New Roman", Times, serif;
   list-style-type:lower-roman;

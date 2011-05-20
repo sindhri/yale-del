@@ -38,21 +38,21 @@
 <body>
   <div id="overall">
 	  <div id="header"></div>
-	  <div>
+	  <div id="menubar">
 	    <ul id="dropdownmenu">
-        <li><a href="#">Home</a>
+        <li><a  class="dropdown" href="#">Home</a>
           <ul>
             <li><a href="/labs/del/index.html">Home</a></li>
             <li><a href="/labs/del/about.html">About</a></li>
           </ul>
         </li>
-        <li><a href="">Resources</a>
+        <li><a  class="dropdown" href="#">Resources</a>
           <ul>
             <li><a href="/labs/del/training.html">Training &amp; Employment</a></li>
             <li><a href="/labs/del/kidscorner.html">Kids Corner</a></li>
           </ul>
         </li>
-        <li><a href="">Research</a>
+        <li><a class="dropdown" href="#">Research</a>
           <ul>
             <li><a href="/labs/del/studies.html">Studies</a></li>
             <li><a href="/labs/del/tasks.html">Tasks</a></li>
@@ -63,15 +63,16 @@
           </ul>
         </li>
         <li><a href="/labs/del/people.html">People</a></li>
-        <li><a href="">Contact</a>
+        <li><a  class="dropdown" href="#">Contact</a>
           <ul>
             <li><a href="/labs/del/contact.html">Contact Info</a></li>
             <li><a href="/labs/del/gettinghere.html">Directions</a></li>
           </ul>
         </li>
-        <li><a href="/labs/del/member_only/calendar.html">Calendar</a>
+        <li><a class="last" href="/labs/del/member_only/calendar.html">Calendar</a>
         </li>
       </ul>
+    <div class="clear"></div>
     </div><!--end of div menubar-->
 <%= yield %>
   </div><!--end of div body-->

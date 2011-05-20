@@ -9,7 +9,7 @@ div#publications_header {
   float:right; 
   margin-top:3em;
 }
-div#publications_header h3{
+div#publications_header a.year{
   font-family: Century Gothic, Times, serif; 
   display: inline;
   color: #666666;
@@ -17,13 +17,10 @@ div#publications_header h3{
   font-weight:lighter;
   padding-left:1em;
 }
-div#publications_header h3:hover {
+div#publications_header a.year:hover {
 	color: #FF0000;
 }
-div#publications_header h3:active {
-	color: #000000;
-}
-div#publications_header h3#publications_2011_header {
+div#publications_header a.year.active {
   color: #000000;
   font-weight:bold;
 }
