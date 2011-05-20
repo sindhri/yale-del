@@ -26,27 +26,25 @@ div#studies li{
   padding-left:1em;
   list-style-type:circle;
 }
-div#studies a{
-  color:#000000;
-  text-decoration:underline;
+#studies a{
+  font:1.2em;
 }
-div#studies a:hover{
-  color:#0000FF;
-  text-decoration:none;
-}
-div#ul_bullet ul{
+#bullet{
   margin:0em;
   padding:0em;
   list-style-type:circle;
 }
-div#ul_bullet li{
-  margin:1em;
+#bullet li{
+  margin:0em 1em 1em 1em;
   padding-left:1em;
 }
-div#ul_bullet li a{
-  text-decoration:underline;
+#bullet li a:link{
   color:#222222;
 }
+#bullet li a:hover{
+  color:#0000FF;
+}
+
 div#div_direction ul{
   list-style-type:circle;
   margin-top:2em;
@@ -60,7 +58,6 @@ div#map{
 div#K23 h2{
   text-align:center;
   margin-top:2em;
-
 }
 div.K23_subtitle h3{
   text-align:center;
@@ -78,7 +75,4 @@ ol#allow_paused_list li{
 div#DEL_minute li{
   margin:1em;
   padding-left:1em;
-}
-div#collaborations a:hover{
-  text-decoration: underline;
 }

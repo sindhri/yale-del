@@ -49,13 +49,9 @@ div#publications_list div.download_link {
   padding: 0em;
   font-size: 1em;
 }
-.download_link a{
-  text-decoration:none;
+.download_link a:visited{
+  color:#0000FF;
 }
-.download_link a:hover{
-  text-decoration: underline;
-}
-
 div#publications_2011 {
   margin-left:0em;
   text-align: justify;

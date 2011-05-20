@@ -55,10 +55,10 @@ a:link{
 }
 a:visited{
 	text-decoration: none;
-	color: #0000FF;
+	color: #000000;
 }
 a:hover{
-	text-decoration: none;
+	text-decoration: underline;
 	color: #0000FF;
 }
 a:active{
@@ -69,6 +69,7 @@ img{
 }
 ul{
   font-family:"Times New Roman", Times, serif;
+  list-style-type:circle;
 }
 table{
   font-style: normal;
