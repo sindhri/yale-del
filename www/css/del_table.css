@@ -19,6 +19,7 @@ table#people a{
 }
 table#people a:hover{
   color:#0000FF;
+  text-decoration:underline;  
 }
 /*contact page*/
 table#contact {
