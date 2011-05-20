@@ -3,8 +3,9 @@
 
 /*for spacing*/
 div#content {
-  margin:2em 4em 1.5em;
+  margin:2em 4em 0em;
   padding:0em 0em 3em 0em;
+  min-height:667px;
 }
 div#title {
   padding: 1.5em 0em 2.0em 0em;

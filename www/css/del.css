@@ -1,26 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@font-face {
+@font-face{
   font-family: "CaviarDreams";
   src: url("../fonts/caviar_dreams/CaviarDreams.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-body {
-    width: 854px;
-    margin: 0 auto;
-    /*background-color: #e5e5f3;*/
-    background-color: #E0E0E0
+body{
+  width: 854px;
+  margin: 0 auto;
+  padding:0;
+  background-color: #E0E0E0;
 }
-
-h1 {
+h1{
   font-family:CaviarDreams,Century Gothic;
   font-size: 1.6em;
   font-weight: lighter;
   margin-bottom: 0.4em;
 }
-
 h2{
 }
 h3{
@@ -43,7 +41,7 @@ h4{
 	margin-bottom: 0px;
 }
 
-p {
+p{
 	font-family:"Times New Roman", Times, serif;
 	line-height:1.2em;
   padding:0em 0em;
@@ -51,25 +49,25 @@ p {
   font-size: 1em;
   text-align:justify;
 }
-a:link {
+a:link{
 	text-decoration: none;
 	color: #0000FF;
 }
-a:visited {
+a:visited{
 	text-decoration: none;
 	color: #0000FF;
 }
-a:hover {
+a:hover{
 	text-decoration: none;
-	color: #FF0000;
+	color: #0000FF;
 }
-a:active {
+a:active{
 	text-decoration: none;
 }
-img {
+img{
 	 border-style: none;
 }
-ul {
+ul{
   font-family:"Times New Roman", Times, serif;
 }
 table{
@@ -79,12 +77,12 @@ table{
   border: 0.1em solid gray;
   border-collapse:collapse;
 }
-td {
+td{
   padding:0.5em;
   border: 0.1em solid gray;
   border-collapse:collapse;
 }
-th {
+th{
   padding:0.5em;
   border: 0.1em solid gray;
   border-collapse:collapse;

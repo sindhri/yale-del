@@ -50,6 +50,9 @@ div#publications_list div.download_link {
   font-size: 1em;
 }
 .download_link a{
+  text-decoration:none;
+}
+.download_link a:hover{
   text-decoration: underline;
 }
 
