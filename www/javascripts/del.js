@@ -1,5 +1,5 @@
 function hideAllPublications() {
- $('#publications_list div').hide(); 
+$('#publications_list').children('div').hide();
  $('a.year').removeClass("active");
 }
 
