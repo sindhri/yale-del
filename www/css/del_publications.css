@@ -28,6 +28,7 @@ div#publications_header a.year.active {
 /*publications*/
 div#publications_list{
   font-variant: small-caps;
+  margin-top:1em;
 }
 div#publications_list ul{
   margin:0em;
