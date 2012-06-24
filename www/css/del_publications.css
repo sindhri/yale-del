@@ -53,8 +53,13 @@ div#publications_list div.download_link {
 .download_link a:visited{
   color:#0000FF;
 }
+div#publications_2012 {
+  margin-left:0em;
+  text-align: justify;
+}
 div#publications_2011 {
   margin-left:0em;
+  display:none;
   text-align: justify;
 }
 div#publications_2010 {
