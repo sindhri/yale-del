@@ -1,7 +1,8 @@
 <div id="content">  <!--start of content div -->
 <div id="content_publications">
 <div id="publications_header"><!--start of publications_header div -->
- 	<a class="year active" data-year="2011" href="#">2011</a>
+ 	<a class="year active" data-year="2012" href="#">2012</a>
+ 	<a class="year" data-year="2011" href="#">2011</a>
  	<a class="year" data-year="2010" href="#">2010</a>
  	<a class="year" data-year="2009" href="#" >2009</a>
  	<a class="year" data-year="early" href="#">Earlier</a>
@@ -10,6 +11,21 @@
 <div id="title"><h1>Publications &amp; Presentations</h1></div>
 
 <div id="publications_list"><!--start of publications div -->
+
+<div id="publications_2012"> <!--start div publication_2012 --> 	  
+ 	<ul>
+   <% csv_table('publications_2012.csv') do |row| %>
+    <li><%= row['Name'] %>&nbsp;(<%= row['Year'] %>)&nbsp;<%= row['Title'] %>
+        <span class="journal"><%= row['Journal'] %></span>
+        <%=row['Location']%>
+        <% if row['Link'] != "" %>	  
+ 	  <div class="download_link">
+ 	  <a href="<%=row['Link']%>">Download &nbsp; <%=row['Type']%></a>
+    </div><% end %>   
+    </li>
+   <% end %>
+ </ul>
+</div> <!--end div publication_2012 div -->
 
 <div id="publications_2011"> <!--start div publication_2011 --> 	  
  	<ul>
