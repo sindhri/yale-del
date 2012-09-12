@@ -20,7 +20,7 @@
         <%=row['Location']%>
         <% if row['Link'] != "" %>	  
  	  <div class="download_link">
- 	  <a href="<%=row['Link']%>">Download &nbsp; <%=row['Type']%></a>
+ 	  <a href="<%=row['Link']%>"><%=row['Action']%></a>
     </div><% end %>   
     </li>
    <% end %>
