@@ -11,14 +11,4 @@ function showPublication(){
 });
 }
 
-function hideAlumni(){
-  $('#alumni_list').hide();
-}
-
-function showAlumni(){
-  $('#alumni_list a').click(function(){
-    $('alumni_list').show();
-  })
-}
-
 $(showPublication);
