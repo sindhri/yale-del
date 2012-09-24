@@ -52,7 +52,7 @@ table#grant th {
 table#people2 {
   border:none;
   width:55em;
-  margin-left:0.8em;
+  margin-left:1.3em;
 }
 table#people2 td{
   border:none;
@@ -61,7 +61,7 @@ table#people2 td{
 table#people2 th{
   border:none;
   text-align: left;
-  padding-left:3.5em;
+  padding-left:3.1em;
 }
 div#people_header{
   border-bottom:1px solid silver;
