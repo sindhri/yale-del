@@ -7,6 +7,9 @@ div#content {
   padding:0em 0em 3em 0em;
   min-height:667px;
 }
+div#content_people{
+  margin-top:1.8em;
+}
 div#title {
   padding: 0em 0em 2.0em 0em;
 }

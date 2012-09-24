@@ -9,3 +9,9 @@ def csv_table(filename)
     yield Hash[row.map { |k,v| [k, CGI.escapeHTML(v.to_s)] }]
   end
 end
+
+def csv_table_people(filename)
+  CSV.foreach("#{DATA_DIR}/#{filename}", :headers => true).map { |row| 
+    Hash[row.map { |k,v| [k, CGI.escapeHTML(v.to_s)] }]
+  }.each_slice(4) { |group| yield group }
+end

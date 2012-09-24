@@ -1,6 +1,4 @@
-list
-people_director.csv
-people_current1.csv
-people_current2.csv
-people_former1.csv
-people_former2.csv
+list,header
+people_director.csv,Directors
+people_current.csv,"Lab members"
+people_former.csv,"Alumni"

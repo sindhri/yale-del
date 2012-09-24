@@ -1,14 +1,25 @@
-<div id="content">
-<div id="title"><h1>People</h1></div> 
+<div id="content_people">
   <table id="people2">
 
     <% csv_table('people_lists.csv') do |row1| %>
+    <th colspan="4"><div id="people_header"><h1><%= row1['header'] %></h1></div></th>
+    
+    <% csv_table(row1['list']) do |row2| %>
+
     <tr>
-      <% csv_table(row1['list']) do |row| %>
-      <td><a href="<%= row['link'] %>" Title="<%= row['Name'] %>&#10;&#13;<%= row['Title'] %>&#10;&#13;"><img src = "images/<%= row['Image'] %>" alt="<%= row['Name'] %>,&nbsp;<%= row['Title'] %>" width="100" height="130" /></a></td>
+      <% csv_table(row2['list']) do |row| %>     
+      <td><a href="<%= row['link'] %>"><img src = "images/<%= row['Image'] %>" alt="<%= row['Name'] %>,&nbsp;<%= row['Title'] %>" width="100" height="130" /></a></td>
       <% end %>
     </tr>
-    <%end%>
-    
+
+    <tr>
+      <% csv_table(row2['list']) do |row| %>
+      <td><%= row['Name'] %><br /><%= row['Title'] %></td>
+      <% end %>
+    </tr>
+
+  <%end%>
+  <%end%>
+  
     </table>      
 </div>
