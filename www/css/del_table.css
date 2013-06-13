@@ -8,8 +8,11 @@ table#table_intern {
 }
 table#table_intern td {
 }
-table#tasks {
+table#table_tasks {
   margin-top:2em; 
+}
+table#table_tools{
+  margin-top:5em;
 }
 table#people {
   margin:0em auto; 
